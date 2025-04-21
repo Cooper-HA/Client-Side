@@ -1,0 +1,95 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.finish-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #10d130, #4286f4);
+}
+
+.finish-content {
+    width: 100%;
+    max-width: 600px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.score-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.score-text span {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.answer-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.answer-item.correct {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.answer-item.incorrect {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.finish-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finish-button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .finish-content {
+        padding: 15px;
+    }
+
+    .score-text {
+        font-size: 1.2rem;
+    }
+
+    .answer-item {
+        font-size: 0.9rem;
+    }
+
+    .finish-button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,91 @@
+
+body {
+    background-color: #121212 !important; 
+    color: #ffffff; /* Light text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #10d130, #4286f4); 
+    background-size: cover;
+}
+
+.welcome-card {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #405cf5;; 
+    margin-bottom: 20px;
+}
+
+.welcome-description {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.continue-btn {
+    padding: 15px 30px;
+    background-color: #10d130;;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.continue-btn:hover {
+    background-color: #405cf5; 
+}
+
+.loginI-btn{
+    padding: 15px 24px;
+    background-color: #10d130;; 
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginI-btn:hover {
+    background-color: #405cf5; 
+}
+
+@media (max-width: 600px) {
+    .welcome-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .welcome-description {
+        font-size: 16px;
+    }
+
+    .continue-btn {
+        font-size: 16px;
+    }
+}

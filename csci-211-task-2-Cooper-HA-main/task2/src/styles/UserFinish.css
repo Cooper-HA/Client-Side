@@ -1,0 +1,118 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #414141;
+    color: #333;
+  }
+  
+  /* Main container */
+  .user-finish-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #10d130, #4286f4);
+  }
+  
+  /* Card styling */
+  .user-finish-card {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title */
+  .user-finish-title {
+    font-size: 1.8rem;
+    color: #e2e2e2;
+    margin-bottom: 20px;
+  }
+  
+  /* Answers */
+  .user-finish-answers {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .user-finish-answer-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #0f0f0f;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .user-finish-answer-item strong {
+    color: #555;
+  }
+  
+  .user-finish-answer {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* No answers message */
+  .user-finish-no-answers {
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* Buttons */
+  .user-finish-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .user-finish-button {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .user-finish-button.retake {
+    background: #007bff;
+  }
+  
+  .user-finish-button.submit {
+    background: #28a745;
+  }
+  
+  .user-finish-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .user-finish-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .user-finish-card {
+      padding: 15px;
+    }
+  
+    .user-finish-title {
+      font-size: 1.5rem;
+    }
+  
+    .user-finish-answer-item {
+      font-size: 0.9rem;
+    }
+  
+    .user-finish-button {
+      font-size: 0.9rem;
+    }
+  }
+  

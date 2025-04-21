@@ -1,0 +1,79 @@
+/* Styling for the QuizAnswersPage */
+
+.quiz-answers-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); 
+}
+
+.return-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.return-button:hover {
+    background-color: #45a049;
+}
+
+.header {
+    font-size: 24px;
+    color: #405cf5;
+    margin-bottom: 20px;
+}
+
+.user-answers-container {
+    margin-bottom: 20px;
+    background-color: #ffffff27;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.question-answer-container {
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 18px;
+    color: #405cf5;
+    margin-bottom: 5px;
+}
+
+.answer-text {
+    font-size: 16px;
+    color:#4CAF50;
+    background-color: #f1f1f115;
+    padding: 8px;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+.no-answers {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+}
+
+.loading {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}

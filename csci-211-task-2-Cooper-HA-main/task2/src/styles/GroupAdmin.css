@@ -1,0 +1,105 @@
+.group-admin-container {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #e29810;
+    margin-bottom: 10px;
+}
+
+.group-description {
+    color: #405cf5;
+    font-size: 14px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.primary-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.activate-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd10;
+    padding: 10px;
+    color: #cecece;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f400;
+    color: #cecece;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+.remove-quiz-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10px; /* Adds space between buttons */
+}
+
+.remove-quiz-btn:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 4px 8px rgba(243, 67, 54, 0.2);
+    transform: translateY(-2px); /* Slight upward motion */
+}
+
+.remove-quiz-btn:active {
+    background-color: #b71c1c;
+    box-shadow: none;
+    transform: translateY(0);
+}

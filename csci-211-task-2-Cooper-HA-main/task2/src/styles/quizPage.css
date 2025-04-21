@@ -1,0 +1,139 @@
+/* Global styles for Dark Mode */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #e0e0e0; /* Light text for better readability */
+}
+
+/* Center the quiz content on all devices */
+#all-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+/* Quiz container styling */
+#quiz {
+    background: #1e1e1e; /* Dark background for quiz container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Darker shadow for dark mode */
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Header and question styles */
+#INFO {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light color for info */
+}
+
+#questionNumber {
+    font-weight: bold;
+    color: #76c7c0; /* Light teal color for question number */
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff; /* White text for legend */
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333; /* Darker border for textarea */
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    margin-bottom: 20px;
+    background-color: #2c2c2c; /* Dark background for textarea */
+    color: #e0e0e0; /* Light text inside the textarea */
+    box-sizing: border-box;
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #333; /* Dark background for buttons */
+    color: #e0e0e0; /* Light text for buttons */
+}
+
+button:hover {
+    background-color: #76c7c0; /* Light teal background on hover */
+    color: white;
+}
+
+/* Specific button colors */
+#prev {
+    background-color: #6c757d; /* Dark gray for "Previous" button */
+    color: white;
+}
+
+#next, #Finish {
+    background-color: #007bff; /* Bright blue for "Next" and "Finish" */
+    color: white;
+}
+
+/* Styling for small screens (mobile devices) */
+@media (max-width: 600px) {
+    #quiz {
+        padding: 10px;
+        width: 100%;
+    }
+
+    #INFO {
+        font-size: 12px;
+    }
+
+    legend {
+        font-size: 12px;
+    }
+
+    textarea {
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #next, #Finish {
+        width: 100%;
+    }
+}
+
+/* Warning message */
+#warning {
+    color: #ff6b6b; /* Soft red color for warnings */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
